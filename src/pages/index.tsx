@@ -4,6 +4,7 @@ import styled from 'styled-components';
 const Hello = styled.div`
   background: purple;
   color: #000;
+  height: 100vh;
 `;
 
 const Homepage: React.FC = () => {
