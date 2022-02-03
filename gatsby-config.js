@@ -1,13 +1,14 @@
 module.exports = {
   plugins: [
-    { resolve: "gatsby-plugin-image", options: {} },
-    { resolve: "gatsby-plugin-sharp", options: {} },
-    { resolve: "gatsby-transformer-sharp", options: {} },
+    "gatsby-plugin-gatsby-cloud",
+    "gatsby-plugin-image",
+    "gatsby-plugin-sharp",
+    "gatsby-transformer-sharp",
     {
       resolve: "gatsby-plugin-styled-components",
       options: {
         displayName: false,
-        transpileTemplateLiterals: true
+        transpileTemplateLiterals: true,
       },
     },
     {
